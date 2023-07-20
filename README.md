@@ -1,5 +1,3 @@
-Nom de votre Application Web
-
 Installation et Exécution en local
 
 Assurez-vous d'avoir installé la liste des prérequis sur votre système.
