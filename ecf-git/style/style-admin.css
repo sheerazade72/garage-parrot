@@ -1,0 +1,92 @@
+/* Code CSS existant */
+.hor {
+    padding: 1em;
+    width: 50%;
+    margin: auto;
+    border: 1px solid #ccc;
+    background-color: black;
+}
+
+.hor h2 {
+    text-align: center;
+    font-size: 1.5em;
+    color: #fff;
+}
+
+.hor label {
+    color: #fff;
+    font-size: 1.3em;
+}
+
+.hor button {
+    background-color: #fff;
+    cursor: pointer;
+    color: #000;
+    padding: 5px 25px;
+    margin: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+
+.hor button:hover {
+    background-color: #ea1f33;
+    color: #fff;
+}
+
+.btn-hor {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+/* Pour les écrans jusqu'à 768px (tablettes et smartphones en mode paysage) */
+@media screen and (max-width: 768px) {
+    .hor {
+        width: 80%;
+    }
+    #admin-msg table {
+        font-size: 1em;
+    }
+}
+
+/* Pour les écrans jusqu'à 576px (smartphones en mode portrait) */
+@media screen and (max-width: 576px) {
+    .hor {
+        width: 100%;
+    }
+    #admin-msg table {
+        font-size: 0.9em;
+    }
+}
+
+#admin-msg{
+    margin: 80px 4em 4em 4em;
+    padding: 1em;
+}
+
+#admin-msg h2{
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+#admin-msg table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1.3em;
+}
+#admin-msg th, td {
+    padding: 10px;
+    text-align: left;
+}
+#admin-msg th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}  
+#admin-msg tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+#admin-msg tr:hover {
+    background-color: #e9e9e9;
+}
+  
